@@ -1,0 +1,22 @@
+.list-card {
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px;
+}
+
+.smile-btn {
+  border: none;
+  background-color: transparent;
+}
+.smile-img {
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .smile-img {
+    height: 50px;
+    width: 50px;
+  }
+}
